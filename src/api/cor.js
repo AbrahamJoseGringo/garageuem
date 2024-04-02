@@ -1,5 +1,5 @@
 import axios from "axios";
-export default class CoresApi {
+export default class CorApi {
   async buscarTodasAsCores() {
     const { data } = await axios.get("/cores/");
     return data.results;
